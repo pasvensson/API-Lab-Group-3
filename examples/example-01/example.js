@@ -1,3 +1,5 @@
+var el = document.querySelector('#triangle')
+
 // From purple to green
 function animate1() {
   dynamics.animate(el, {
