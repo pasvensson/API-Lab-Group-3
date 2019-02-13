@@ -2,24 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>example-5</title>
+    <title>location pin</title>
+<!--    <link rel="stylesheet" href="common.css">
+-->
   </head>
   <body>
+    <style>
+    .pin {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -38px;
+      margin-top: -53px;
+    }
+    .pin, svg {
+      -webkit-transform-origin: 50% 100%;
+      -moz-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+    }
+    </style>
 
-<!-- <link rel="stylesheet" href="common.css"> -->
-<style>
+    <script src="../../build/dynamics.js"></script>
+    <section id="example">
+      <div class="pin">
+        <svg width="76" height="107" viewBox="0 0 76 107" xmlns="http://www.w3.org/2000/svg">
+          <path d="M38 106.7c2.4 0 37.7-43 37.8-68.8 0-21-17-38-38-38C17 0 0 17 0 38c.4 27 35.4 68.7 38 68.7z" fill="#EC1A0A"/>
+          <ellipse fill="#FFF" cx="38.1" cy="38.1" rx="23.1" ry="23.1"/>
+        </svg>
+      </div>
+    </section>
 
-</style>
-<script src="../../build/dynamics.js"></script>
-<section id="example">
-  <div id="triangle"></div>
-</section>
-<script src="example.js"></script>
+    <script src="example.js"></script>
+    <script id="script">
+      // Start the horizontal bounce first!
+      horizontalBounce();
+    </script>
 
-<script id="script">
-
-</script>
-
-
-</body>
+  </body>
 </html>
