@@ -2,24 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>example-1</title>
+    <title>example-3</title>
   </head>
   <body>
 
 <!-- <link rel="stylesheet" href="common.css"> -->
 <style>
-
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -60px;
+  margin-top: -12px;
+}
+.dot {
+  float: left;
+  margin: 0 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: black;
+}
 </style>
+
 <script src="../../build/dynamics.js"></script>
 <section id="example">
-  <div id="triangle"></div>
+  <div class="loader">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
 </section>
 <script src="example.js"></script>
 
 <script id="script">
-
+  // Start first animation
+  animateDots();
 </script>
-
 
 </body>
 </html>
