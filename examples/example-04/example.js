@@ -1,4 +1,3 @@
-<script id="script">
 var spinner = document.querySelector('.spinner')
 var background = document.querySelector('.background')
 var line = document.querySelector('.line')
@@ -130,9 +129,3 @@ function restart() {
     }
   })
 }
-
-// Start!
-start()
-rotate()
-</script>
-<script src="example.js"></script>
