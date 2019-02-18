@@ -4,6 +4,7 @@ var textEl = document.querySelector('span')
 var pathOver = el.getAttribute('data-over-path')
 var pathOut = el.getAttribute('d')
 
+
 // Over animation
 function animateOver() {
   //Animates an element to the properties with the animation options.
@@ -30,9 +31,9 @@ function animateOver() {
   //dynamics.animate(el, properties, options)
   dynamics.animate(textEl, {
     //size increase of buttontext
-    scale: 2,
-    //rotation animation (text) (12*)
-    rotateZ: 12
+    scale: 1.25,
+    //rotation animation (text) (8*)
+    rotateZ: 8
   }, {
     //animation type
     type: dynamics.forceWithGravity
