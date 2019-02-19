@@ -1,28 +1,28 @@
-var el = document.querySelector('#triangle')
+var el = document.querySelector('#square')
 
 
-// From purple to green
+// From yellow to red
 function animate1() {
   dynamics.animate(el, {
     rotateZ: 360,
     scale: 2.5,
-  /*  borderBottomColor: '#4FDF086'*/
+    borderBottomColor: '#FFDF00'
   }, {
-    /*type: dynamics.spring,*/
+    type: dynamics.spring,
     friction: 400,
     duration: 1000,
     complete: animate2
   })
 }
 
-// From green to purple
+// From red to yellow
 function animate2() {
   dynamics.animate(el, {
     rotateZ: 180,
-    scale: 2.5,
-  /*  borderBottomColor: '#CA35F6F'*/
+    scale: 1.5,
+   borderBottomColor: '#FF0000'
   }, {
-  /*  type: dynamics.spring,*/
+    type: dynamics.string,
     frequency: 600,
     friction: 400,
     duration: 1000,
