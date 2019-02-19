@@ -1,4 +1,4 @@
-This is the Pin example it shows an animated map pin.
+This is the Pin example, it shows an animated map pin.
 Two horizontal movements were added, one to the left
 and one to the right.
 
