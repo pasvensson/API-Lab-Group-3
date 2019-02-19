@@ -6,22 +6,32 @@
   </head>
   <body>
 
-<!-- <link rel="stylesheet" href="common.css"> -->
+<link rel="stylesheet" href="../../build/common.css">
+
 <style>
+
+/* Setting a black background for the whole page */
+body {
+  background: black;
+}
+
+/* Couldn't find CSS code online to perfectly allign an element horizontally and vertically when you don't know its width, not even using Flexbox, so I settled for a left positioning that would center it quite well on a FullHD screen */
 .loader {
   position: absolute;
-  left: 50%;
+  left: 35%;
   top: 50%;
-  margin-left: -60px;
-  margin-top: -12px;
+  margin-left: auto;
+  margin-top: auto;
 }
+
+/* Making dots less circular to the point they bacame squares with rounded corners */
 .dot {
   float: left;
   margin: 0 8px;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-  background: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  background: white;
 }
 </style>
 
@@ -31,8 +41,12 @@
     <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
+    <!-- added a couple of extra bouncing figures -->
+    <div class="dot"></div>
+    <div class="dot"></div>
   </div>
 </section>
+
 <script src="example.js"></script>
 
 <script id="script">
