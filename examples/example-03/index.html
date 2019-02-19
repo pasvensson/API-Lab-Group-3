@@ -10,10 +10,12 @@
 
 <style>
 
+/* Setting a black background for the whole page */
 body {
   background: black;
 }
 
+/* Couldn't find CSS code online to perfectly allign an element horizontally and vertically when you don't know its width, not even using Flexbox, so I settled for a left positioning that would center it quite well on a FullHD screen */
 .loader {
   position: absolute;
   left: 35%;
@@ -22,6 +24,7 @@ body {
   margin-top: auto;
 }
 
+/* Making dots less circular to the point they bacame squares with rounded corners */
 .dot {
   float: left;
   margin: 0 8px;
@@ -38,6 +41,7 @@ body {
     <div class="dot"></div>
     <div class="dot"></div>
     <div class="dot"></div>
+    <!-- added a couple of extra bouncing figures -->
     <div class="dot"></div>
     <div class="dot"></div>
   </div>
