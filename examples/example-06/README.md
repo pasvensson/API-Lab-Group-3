@@ -1,1 +1,1 @@
-This is the "Menu" example.
+# This is the "Menu" example.

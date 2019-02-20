@@ -1,1 +1,1 @@
-This is the "Syncing spinner" example.
+# This is the "Syncing spinner" example.
