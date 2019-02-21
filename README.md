@@ -19,6 +19,7 @@ dynamics.animate (o, {
   string "90deg",
   array: [ -9, 99 ]
 })
+```
 
 Once you have your variable and objects down, you can set a default animation type or simply create one with the built-in parameters: friction, duration, delay and many more; following the syntax "dynamics.animate(variable, properties, options)".
 
