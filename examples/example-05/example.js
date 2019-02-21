@@ -41,10 +41,11 @@ function verticalBounce() {
     duration: 800,
     bounciness: 600,
     delay: 650,
-    complete: horizontalMove
+    complete: horizontalMove   // Changed
   })
 }
 
+// Function added to make the horizontal movements
 function horizontalMove() {
   dynamics.animate(pin, {
     translateX: moveAmount
