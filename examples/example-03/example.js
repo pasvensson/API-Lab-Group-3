@@ -15,7 +15,7 @@ function animateDots() {
       // Implementing realistic animation properties
       bounciness: 200,
       elasticity: 100,
-      // Setting the global animation runtime to 3 seconds
+      // This property sets the global animation runtime
       duration: 3000,
       // Adding a delay to the animation of each square
       delay: i * 150
