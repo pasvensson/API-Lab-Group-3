@@ -33,4 +33,4 @@ In order to try it out for yourself, visit http://dynamicsjs.com and follow the 
 February 2019.
 
 ## We made this
-This project was made by Patrik Svensson, Richard Modecir, Anton Forsell and Caleb Oyegun as a way to explore a JS library. We have no plans of maintaining this repository.
+This project was made by Patrik Svensson, Richard M., Anton Forsell and Caleb Oyegun as a way to explore a JS library. We have no plans of maintaining this repository.
